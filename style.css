@@ -1,0 +1,929 @@
+:root { 
+    --cor-principal:black;
+}
+
+html { width: 100%;
+      margin: 0;}
+
+body { margin:0;
+       padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;}
+
+header { display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        background-color:var(--cor-principal)}
+
+.abrirmenu { display: none;}
+
+nav a { font-family: 'Bruno Ace', cursive;
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        font-size: 11px;}
+      
+.listmenu:hover {border-bottom: 3px solid orange;}
+
+
+
+
+
+
+    /*---------PAGINA_2--------*/
+
+.container__banner {width:100%;
+                    height: 690px;
+                    background-image: url(/Awax/complementos/bg.jpg);
+                    background-position: center;
+                    background: cover;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    
+                    
+                    
+   }
+
+.titulo__conteudo { width:100%;
+                    height: 690px;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 40px;
+                    font-family: 'Bruno Ace', cursive;
+                    padding-top: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: rgba(0,0, 0, 0.8);
+                    
+                    
+                    }
+
+.titulo__font { margin: 0;
+                padding:0;
+                }
+
+.destaque {color: orange;}
+
+.callus { color: WHITE;
+          font-size: 20px;
+          padding: 0;
+          margin: 0;
+          padding: 10px 0px 40px 0px;
+            }
+
+.botao__destaque {width: 200px;
+                  height: 50px;
+                background-color: orange;
+                font-size: 13px;
+                text-align: center;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                border-radius: 20px;
+                color: white;
+                
+                }
+
+.bolinhas { padding-top: 150px;
+            font-size: 100px;
+            color: black;}
+
+.bolinhas { display: flex;
+            flex-direction: row;
+            }
+
+.bola { width:15px;
+        height: 15px;
+        border: 3px solid black;
+        border-radius: 100%;
+        background-color: transparent;
+       margin: 5px;}
+
+.bola:nth-child(1) {background-color: orange;
+                    }
+
+
+
+/*---------PAGINA_3--------*/
+
+
+#aboutus {width:100%;
+          height: 500px;
+          background-color: white;
+          margin: 0;
+          padding: 0;}
+
+.titulo_about {width: 100%;
+                height: 90px;
+                display: flex;
+               flex-direction: column;
+               align-items:center;
+                background-color: white;
+                }
+
+.tituloabout {margin: 0;
+                padding-top:30px;
+            font-family: 'Bruno Ace', cursive;}
+
+.subtituloabout {
+                margin: 0;
+                padding: 0;
+                color: rgb(148, 148, 148);
+                font-family: 'Bruno Ace', cursive;
+                font-size: 8px;}
+
+.conteudo_about{display: flex;  
+                justify-content: space-around;
+                align-items: center;
+                margin: 40px;
+                padding: 10px;}
+
+.parabotao { display: flex;
+            flex-direction: column;
+            gap: 20px;}
+
+.botao_about {  width: 200px;
+                height: 50px;
+                background-color: orange;
+                font-size: 13px;
+                align-items: center; 
+                text-align: center;
+                border-radius: 20px;
+                color: white;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                font-size: 16px;}
+
+
+.conteudo_p_about {width:100%;}
+
+
+
+/*---------PAGINA_4--------*/
+
+
+#services {width:100%;
+           height: 500px;
+           margin: 0;
+           padding: 0;
+           background-color: black;
+           display: flex;
+          align-items: center;
+          flex-direction: column;
+           
+        }
+
+.titulo_services {width:100%;
+                  height:120px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                    background-color:black; }
+
+
+.tituloservices {margin: 0;
+                padding-top:30px;
+            font-family: 'Bruno Ace', cursive;
+            color: white;}
+
+.subtituloservices { margin: 0;
+                padding: 0;
+                color: rgb(148, 148, 148);
+                font-family: 'Bruno Ace', cursive;
+                font-size: 8px;}
+
+
+.conteudo_services {width: 100%;
+                    height:300px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    background-color: black;
+                   }
+
+.selos { width: 200px;
+        height: 60%;
+        display: flex;
+        background-color: black;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 30px;
+        border-right:0.3px solid  rgb(75, 74, 74);
+        border-left:0.3px solid  rgb(75, 74, 74);
+        }
+
+
+        .selos:nth-child(4) {
+            display: flex;
+            border-right:0.3px solid  rgb(75, 74, 74);
+            background-color: black;
+            }
+
+        
+
+    .imgselos { width:70px;
+                height: 61px;
+                }
+
+.titulo_selo{ color: white;
+              margin: 0;
+              padding: 10px;
+            align-items: center;}
+
+.subtitulo_selo { color: white;
+                 }
+
+#outrosp { width:100%;
+          height: 1000px;
+          background-color: white;
+          }
+
+.tituloprojetos { width: 100%;
+                  height: 150px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                }
+
+ .titulop { margin: 0;
+  padding-top:30px;
+font-family: 'Bruno Ace', cursive;
+color: black;
+
+ }
+
+ .subprojects { margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;
+ }
+
+ 
+.outrosprojects { width:100%;
+                 height: 50px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-around;
+                 
+               
+                }
+
+.quadrado {
+          height: 20px;
+          border: 11px solid rgb(192, 192, 192);
+           display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color:rgb(192, 192, 192);
+          gap: 5px;
+          }
+
+.quadrado:nth-child(1) { 
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  ;
+}
+
+.quadrado:nth-child(1) { 
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+  
+.listaprojects { width: 100px;            
+  border-right: 1px solid rgba(133, 133, 133, 0.685);
+  font-size: 18px;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+      
+            }
+  
+.listaprojects:nth-child(6):hover {border-bottom: 3px solid orange;}
+  
+.listaprojects:hover { border-bottom: 3px solid orange;
+                      
+                      }
+
+
+.listaprojects:nth-child(6) {border: 0;}
+
+.imgprojects { width:15.875rem ;
+               height:164px ;
+               padding:0;
+               margin: 25px;
+               display: flex;
+              background-position:cover;
+              justify-content:space-between;
+
+              }
+            
+
+
+.blocoimg { width: 100%; 
+            align-items: center;
+            display: flex;
+            justify-content:center;
+            
+            }
+  
+.coluna {     width: 100%;
+               display: flex;
+               flex-direction: column;
+              align-items: center;
+              justify-content: space-around;
+              
+              
+               }
+
+
+
+.foto { display: inline-block;
+  background-color: rgba(0,0, 0, 0.8);
+  width: inherit;
+  height: inherit;}
+    
+
+.maisprojetos {width: 100%;
+  display: flex;
+  
+  justify-content: center;
+  }
+
+  .botaop { width: 200px;
+    height: 50px;
+  background-color: orange;
+  font-size: 13px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;}
+
+#team { 
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0,0, 0, 0.6);
+  
+  
+}
+.titulo_ourteam { text-align: center;
+                }
+
+
+.tituloteam { margin: 0;
+  padding-top:30px;
+font-family: 'Bruno Ace', cursive;
+color: black;
+
+ }
+
+ .subtituloteam { margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;}
+
+
+.cards { display: flex;
+        justify-content: center;
+       }
+
+.perfil { width: 250px;
+          height: 400px;
+          background-color:white;
+        margin: 30px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        }
+
+.foto_perfil {width: 180px;
+              height: 180px;
+            padding: 10px;
+            }
+
+
+.nomeperfil {margin:0;
+            padding: 0;
+            color:black}
+  
+.profissao { margin:0; color:black}
+
+.icons {
+        margin: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      
+        }
+
+.icones {width: 20px;
+        height: 20px;
+        border: 5px solid black;
+        border-radius: 20%;
+        background-color: black;
+         }
+
+.bolinha_paginas {display: flex;
+                  align-items: center;
+                 justify-content: center;
+                 margin: 20px;
+                 
+                }
+
+.bpagina { border: 10px solid orange;
+           border-radius: 50%;
+           margin: 5px;
+           }
+
+.bpagina:nth-child(2) { border: 10px solid white;
+                       }
+
+#clientes { width: 100%;
+           height: 660px;
+           background-color: rgba(0,0, 0, 0.1);
+           border-top: 7px solid white;
+           }
+
+.titulos_clientes { width: 100%;
+                    height: 120px;
+                    display:flex;
+                    flex-direction: column;
+                  align-items: center;}
+
+.titulocliente { margin: 0;
+  padding-top:30px;
+font-family: 'Bruno Ace', cursive;
+color: black;}
+
+.subtitle_clientes {margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px; }
+
+.cliente {width: 100%;
+          height: 370px;
+          }
+
+.foto_cliente {display:flex;
+               align-items: center;
+              justify-content: center;
+              padding: 50px;}
+
+.detalhecliente {width: 100%;
+                height: 200px;
+                display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+          }
+      
+.quote { width: 30px;}
+
+
+.lorem {width: 700px;
+        height: 150px;
+        color: grey;}
+
+.nome_cliente {margin: 0;
+              padding: 0;}
+
+
+
+#parceiros { 
+             width: 100%;
+             height: 200px;
+            border: 1px solid rgba(0,0, 0, 0.2);
+            display: flex;
+          align-items: center;}
+
+.empresas_parceiras {width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    
+                    }
+
+#price { width: 100%;
+        height: 580px;
+        background-color: rgba(0,0, 0, 0.1);
+        }
+
+.price { margin: 0;
+  padding-top:30px;
+font-family: 'Bruno Ace', cursive;
+color: black;
+}
+
+.subprice {margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;}
+
+
+.titleprice { 
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cardsprice { width: 100%;
+              height: 400px;
+              display: flex;
+              justify-content: space-around;
+              }
+
+
+.areaprice { width: 247px;
+             height: 388px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            }
+
+strong {margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148); 
+}
+
+  .titulo_preço {margin: 5px;
+                padding: 0px;}
+        
+  .preço {margin: 10px;
+          padding: 5px;}
+
+p { margin: 0;
+    padding: 2px;}
+
+.botao_choose { width:130px;
+                height: 45px;
+                background-color: grey;
+                border-radius: 50px;
+                color: white;
+                margin: 25px;
+                border: 0;
+              }
+
+      
+
+.botao_choose:hover { background-color: orange;}
+
+#PREMIUM { 
+  width: 100%;
+  height: 900px;
+}
+
+.header_premium {width: 100%;
+                 height: 120px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center ;}
+
+.titulo_premium {margin: 0;
+  padding-top:30px;
+font-family: 'Bruno Ace', cursive;
+color: black; }
+
+.subpremium {margin: 0;
+  padding: 0;
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px; }
+
+.areaproduto { width: 100%;
+              height: 500px;
+              display: flex;
+              justify-content:space-around;
+              align-items: center;
+              border-bottom: 1px solid rgba(0,0, 0, 0.1);
+              }
+
+.titulo_esp {
+font-family: 'Bruno Ace', cursive;
+color: black; }
+
+.topicos_esp {
+  color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;  }
+
+  .produto { width:550px ;
+            height: 350px ;}
+
+  .esp1 { 
+          display: flex;
+          margin: 10px;
+          }
+
+  .check { width: 30px;
+          height: 35px;
+          padding: 20px;}
+  
+.especificaçoes { width: 500px;
+                  display: flex;
+                  flex-direction: column;}
+
+#PREMIUM .bpagina { border: 10px solid orange;}
+
+#PREMIUM .bpagina:nth-child(1) {border: 10px solid black;}
+
+.botao_premium {height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+
+.botao__premium { background-color: orange;
+                  border-radius: 30px;
+                  width: 192px;
+                  height: 45px;
+                  border: 0;
+  color: white;}
+
+
+
+#somefacts {width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+           background-color: black;
+          text-align: center;
+          flex-direction: column;
+          margin: 0;
+          padding: 0;
+        }
+
+
+
+.titulo__somefacts {font-family: 'Bruno Ace', cursive;
+  color: white;}
+
+.subsomefacts {color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;   }
+
+
+.estatisticas { width: 100%;
+                height: 300px;
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+              }
+
+
+.dados_estatisticas {width:170;
+                     height: 157px;
+                    background-color: black;}
+                  
+.titulo__dados {margin: 0;
+                padding: 0;
+                font-size: 50px;
+                color: orange;
+                font-family: 'Bruno Ace', cursive;
+                }
+
+.divisao { margin: 0;
+          padding: 0;
+        }
+
+.sub__dados {font-family: 'Bruno Ace', cursive;
+            margin: 0;
+            padding: 10px;
+          color: white;}
+
+.sub__dados2 {margin: 0;
+              padding:0px;
+              font-family: 'Bruno Ace', cursive;
+            font-size: 5px;
+            color:rgb(148, 148, 148) ;}
+
+#contactus  {width: 100%;
+             height: 500px;
+             }
+
+.areacontact {display: flex;
+  flex-direction: column;
+  justify-content: center;}
+
+.titulo_contact { width: 100%;
+                  height: 120px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;}
+
+.titulo__contact {font-family: 'Bruno Ace', cursive;
+  color: black; }
+.subcontact { color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px; }
+
+
+  .areaformulario {width:100%;
+                   height:300px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                flex-direction: column;}
+
+    input { border: none;
+            border-bottom: 1px solid rgba(0,0, 0, 0.2);
+            font-size: 20px;
+            
+            
+            }
+
+  
+
+  .formulario {padding: 40px;
+              display: flex;
+              gap: 50px;
+              
+                }
+      
+  .formulario2 {
+                 gap: 50px;
+                display: flex;
+                flex-direction: column;
+                flex-direction: center;
+                }
+
+.areainternaforms { width:550px;
+                    height: 350px;
+                    display: flex;
+                   flex-wrap: wrap;
+                    justify-content: space-evenly;}
+
+
+.tamanho {width: 550px;}
+
+.botao__enviar {width: 100%;
+                width: 120px;
+                display: flex;
+               align-items: center;
+              justify-content: center;
+              padding: 50px;
+                
+              }
+
+.enviar {background-color: orange;
+  border-radius: 30px;
+  width: 192px;
+  height: 45px;
+  color: white;
+border: 0;
+margin:10px;}
+
+
+footer { width: 100%;
+        height: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+
+
+.cardsfooter2 {width: 350px;
+              height: 250px;
+             display: flex;
+              background-color: black;
+              align-items: center;
+              text-align: center;
+              }
+  
+.cardsfooter1 {width: 350px;
+                height: 250px;
+               
+                background-color: black;
+                align-items: center;
+                text-align: center;
+                }
+
+.cardsfooter3 {width: 350px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction: column;
+                  
+                  }
+
+
+h6 {color:white}
+
+
+.descfooter {color: rgb(148, 148, 148);
+  font-family: 'Bruno Ace', cursive;
+  font-size: 8px;
+}
+
+
+.icons_footer {padding: 50px;}
+
+.email { border: none;
+        border-bottom: 1px solid grey;
+        background-color: black;
+        color: white;
+        
+        }
+
+
+
+
+
+
+
+@media (min-width:450px) and (max-width:850px){
+
+  .abrirmenu {display: block;
+               width: 45px;}
+  
+nav {display: none;
+      position: absolute;
+      z-index: 99;
+      background-color: rgba(0,0, 0, 0.9) ;
+      width: 70vw;
+      height: calc(100vh - 100px);
+      top: 100px;
+      right: 0;
+  }
+
+
+
+.menu ul { display: flex;
+          flex-direction: column;}
+
+.listmenu { font-size: 15px;
+            display: flex ;
+            margin-left: 50px;
+            margin: 0;
+            height: 80px;
+            }
+.coluna {min-width: 50%;}
+
+.lorem {width: 100%;}
+
+.dados_estatisticas {min-width: 50%;}
+
+}
+
+
+@media (max-width:450px){
+
+  .abrirmenu {display: block;
+               width: 45px;}
+  
+nav {display: none;
+      position: absolute;
+      z-index: 99;
+      background-color: rgba(0,0, 0, 0.9) ;
+      width: 70vw;
+      height: calc(100vh - 100px);
+      top: 100px;
+      right: 0;
+  }
+
+
+
+.menu ul { display: flex;
+          flex-direction: column;}
+
+.listmenu { font-size: 15px;
+            display: flex ;
+            margin-left: 50px;
+            margin: 0;
+            height: 80px;
+            }
+.coluna {min-width: 50%;}
+
+.lorem {width: 100%;}
+
+.dados_estatisticas {min-width: 50%;}
+
+}
